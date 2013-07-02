@@ -1,4 +1,4 @@
-(defproject tableflisp "0.1.0"
+(defproject tableflisp "0.2.0-SNAPSHOT"
   :description "Unicode weapons for a more civilized age"
   :url "https://github.com/grimradical/tableflisp"
   :license {:name "Eclipse Public License"
