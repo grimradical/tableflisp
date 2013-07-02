@@ -4,10 +4,18 @@ Because desperate times call for desperate functions!
 
 ## Quick start
 
+Add the following line to your leiningen dependencies:
+
+```clojure
+[tableflisp "0.1.0-SNAPSHOT"]
+```
+
 Require tableflisp in your namespace header:
 
+```clojure
 (ns example.core
   (:use [tableflisp.core]))
+```
 
 ## Usage
 
