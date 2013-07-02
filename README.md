@@ -2,6 +2,13 @@
 
 Because desperate times call for desperate functions!
 
+## Quick start
+
+Require tableflisp in your namespace header:
+
+(ns example.core
+  (:use [tableflisp.core]))
+
 ## Usage
 
 ```clojure
@@ -12,6 +19,12 @@ Because desperate times call for desperate functions!
 ;; One processor? What decade is this?!
 (when (= 1 (.availableProcessors (Runtime/getRuntime)))
   (<╯°□°>╯︵┻━┻))
+
+;; FFFFFFFUUUUUUUUUUUU...
+(try
+  (apply str (repeat 7 "F") (repeat "U"))
+  (catch OutOfMemoryError e
+    (<╯°□°>╯︵┻━┻)))
 ```
 
 ## License
