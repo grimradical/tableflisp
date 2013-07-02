@@ -37,6 +37,6 @@ Require tableflisp in your namespace header:
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 ¯\(°_o)/¯
 
 Distributed under the Eclipse Public License, the same as Clojure.
