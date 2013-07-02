@@ -1,10 +1,18 @@
 # tableflisp
 
-A Clojure library designed to ... well, that part is up to you.
+Because desperate times call for desperate functions!
 
 ## Usage
 
-FIXME
+```clojure
+;; Friends don't let friends use the IBM JDK
+(when (re-find #"IBM" (System/getProperty "java.vm.name"))
+  (<╯°□°>╯︵┻━┻))
+
+;; One processor? What decade is this?!
+(when (= 1 (.availableProcessors (Runtime/getRuntime)))
+  (<╯°□°>╯︵┻━┻))
+```
 
 ## License
 
