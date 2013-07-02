@@ -7,7 +7,7 @@ Because desperate times call for desperate functions!
 Add the following line to your leiningen dependencies:
 
 ```clojure
-[tableflisp "0.1.0-SNAPSHOT"]
+[tableflisp "0.1.0"]
 ```
 
 Require tableflisp in your namespace header:
