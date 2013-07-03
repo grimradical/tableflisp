@@ -30,7 +30,7 @@ Require tableflisp in your namespace header:
 
 ;; FFFFFFFUUUUUUUUUUUU...
 (try
-  (apply str (repeat 7 "F") (repeat "U"))
+  (apply str (concat (repeat 7 "F") (repeat "U")))
   (catch OutOfMemoryError e
     (<╯°□°>╯︵┻━┻)))
 ```
